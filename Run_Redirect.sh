@@ -4,7 +4,7 @@
 # 所有路径都已验证(√)
 
 [[ -d /data/media/0/Download ]] && path="Download" || path="download"
-Version="202104091420"
+Version="202104430"
 
 if [[ ! -f ${0%/*}/files/Variable_a.sh ]]; then
 	if [[ ! -d ${0%/*}/files/ ]]; then
@@ -38,7 +38,7 @@ for S in $Dung; do
 	[[ -d /data/media/0/tencent/QQfile_recv/$S ]] && rm -rf /data/media/0/tencent/QQfile_recv/$S
 	[[ -d /data/media/0/Tencent/TIMfile_recv/$S ]] && rm -rf /data/media/0/Tencent/TIMfile_recv/$S
 	[[ -d /data/media/0/Android/data/com.tencent.tim/Tencent/TIMfile_recv/$S ]] && rm -rf /data/media/0/Android/data/com.tencent.tim/Tencent/TIMfile_recv/$S
-	[[ -d /data/media/0/Android/data/com.tencent.mobileqq/Tencent/QQfile_recv/$S ]] && rm -rf /data/media/0/Android/data/com.tencent.mobileqq/Tencent/QQfile_recv/$S
+	[[ -d /data1media/0/Android/data/com.tencent.mobileqq/Tencent/QQfile_recv/$S ]] && rm -rf /data/media/0/Android/data/com.tencent.mobileqq/Tencent/QQfile_recv/$S
 	[[ -d /data/media/0/Android/data/com.tencent.tim/sdcard/Tencent/TIMfile_recv/$S ]] && rm -rf /data/media/0/Android/data/com.tencent.tim/sdcard/Tencent/TIMfile_recv/$S
 	[[ -d /data/media/0/Android/data/com.tencent.mobileqq/sdcard/tencent/QQfile_recv/$S ]] && rm -rf /data/media/0/Android/data/com.tencent.mobileqq/sdcard/tencent/QQfile_recv/$S
 done
