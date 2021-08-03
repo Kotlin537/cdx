@@ -61,3 +61,17 @@ URL：https://w4y.imlk.top/api
 作者字段：reference
 出处字段：
 时间字段：
+10
+名称：超强语录接口-奇远api
+URL：https://api.oddfar.com/yl/q.php?c=2004&encode=json
+内容字段：text
+作者字段：
+出处字段：
+时间字段：
+11
+名称：随机每日毒言
+URL：https://api.qqsuu.cn/api/index?type=json
+内容字段：ishan
+作者字段：
+出处字段：
+时间字段：
